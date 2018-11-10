@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>taz_launch</name>
+  <version>0.0.0</version>
+  <description>The taz_launch package</description>
+
+  <maintainer email="zach.inbox@gmail.com">Zach Anderson</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="zach.inbox@gmail.com">Zach Anderson</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>p2os_driver</exec_depend>
+  <exec_depend>p2os_launch</exec_depend>
+
+  <export>
+  </export>
+</package>

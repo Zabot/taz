@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>taz_description</name>
+  <version>0.0.0</version>
+  <description>The taz_description package</description>
+
+  <maintainer email="zach.inbox@gmail.com">Zach Anderson</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="zach.inbox@gmail.com">Zach Anderson</author> 
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>p2os_urdf</build_depend>
+
+  <export>
+  </export>
+</package>

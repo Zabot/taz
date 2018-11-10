@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>taz</name>
+  <version>0.0.0</version>
+  <description>The taz package</description>
+
+  <maintainer email="zach.inbox@gmail.com">Zach Anderson</maintainer>
+
+  <license>GPLv3</license>
+
+   <author email="zach.inbox@gmail.com">Zach Anderson</author> 
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>taz_description</exec_depend>
+  <exec_depend>taz_launch</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>
+

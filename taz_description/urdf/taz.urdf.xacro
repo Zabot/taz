@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="taz" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find p2os_urdf)/defs/pioneer3dx.xacro" />
+    <link name="front_laser"/>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="top_plate"/>
+        <child link="front_laser"/>
+        <origin xyz="0.17 0 0.05"/>
+    </joint>
+
+</robot>
+
