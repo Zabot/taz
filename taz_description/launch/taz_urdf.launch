@@ -3,5 +3,6 @@
 	<param name="robot_description" textfile="$(find taz_description)/urdf/taz.urdf"/>
 
 	<node name="state_publisher" type="state_publisher" pkg="robot_state_publisher"/>
+	<node name="joint_publisher" type="joint_state_publisher" pkg="joint_state_publisher"/>
 </launch>
 

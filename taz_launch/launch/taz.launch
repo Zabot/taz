@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <launch>
-    <incldue name="$(find taz_description)/launch/taz_urdf.launch"/>
-    <node name="urg_node" type="urg_node" pkg="urg_node"/>
+    <include file="$(find taz_description)/launch/taz_urdf.launch"/>
+    <node name="urg_node" type="urg_node" pkg="urg_node">
+        <param name="frame_id" value="/front_laser"/>
+    </node>
     
     <node pkg="p2os_driver" type="p2os_driver" name="p2os_driver" output="screen">
         <param name="port" value="/dev/ttyUSB0"/>
